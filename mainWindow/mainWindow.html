@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./mainWindowStyle.css"/>
+</head>
+<body>
+  
+  <h5 id="headertext">CmdCntr^1</h5>
+  <div class="box"></div>
+  <input type="text" placeholder="Alt + C" id="cmdBox" onkeydown="enterCmd(this)"/>
+  <div class="exelist">
+    <a class="exetext">PathOfExile</a>
+    <a class="exenum">Alt + 1</a>
+  </div>
+  <div class="exelist" style="margin-top:24px;">
+    <a class="exetext">Minecraft</a>
+    <a class="exenum">Alt + 2</a>
+  </div>
+
+  <script src="..\node_modules\animejs\lib\anime.min.js"></script>
+  <script src="../cmds.js"></script>
+  <script src="./mainWindowScript.js"></script>
+</body>
+</html>
